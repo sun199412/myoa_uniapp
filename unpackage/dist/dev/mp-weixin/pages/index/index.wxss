@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 主题颜色 */
+.index .nav {
+  height: 230.77rpx;
+  width: 100%;
+  line-height: 230.77rpx;
+  border-bottom: 1px solid #e1e1e1;
+}
+.index .nav .status_bar {
+    height: 25px;
+    width: 100%;
+}
+.index .nav .title {
+    height: calc(100% - 25px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    font-size: 36rpx;
+}
+.index .content {
+  padding: 0 27.78rpx;
+}
+.index .content .list {
+    padding-bottom: 52rpx;
+    border-bottom: 1px solid #e1e1e1;
+}
+.index .content .list .list-title-box {
+      height: 97.22rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+}
+.index .content .list .list-title-box .list-line {
+        width: 6.25rpx;
+        height: 27.78rpx;
+        background-color: #F44336;
+        margin-right: 16.67rpx;
+}
+.index .content .list .list-title-box .list-title {
+        font-size: 32rpx;
+}
+.index .content .list .list-content {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+              flex-wrap: wrap;
+}
+.index .content .list .list-content .list-item {
+        margin: 0 36.1rpx 16.66rpx 36.1rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+                align-items: center;
+}
+.index .content .list .list-content .list-item .list-item-img {
+          width: 100rpx;
+          height: 100rpx;
+}
+.index .content .list .list-content .list-item .list-item-text {
+          text-align: center;
+}
+
